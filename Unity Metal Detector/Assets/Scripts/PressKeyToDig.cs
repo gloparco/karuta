@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class PressKeyToDig : MonoBehaviour
 {
     public GameObject instruction;
+    public GameObject image;
     private bool isPlayerWithinDiggingRange;
 
     //[Header("Events")]
@@ -15,6 +16,7 @@ public class PressKeyToDig : MonoBehaviour
     void Start()
     {
         instruction.SetActive(false);
+        image.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider collision)
@@ -29,7 +31,12 @@ public class PressKeyToDig : MonoBehaviour
 
     private void OnTriggerExit(Collider collision)
     {
+        if (image.activeSelf)
+        {
+            gameObject.SetActive(false);
+        }
         instruction?.SetActive(false);
+        image?.SetActive(false);
     }
 
     // Update is called once per frame
@@ -39,6 +46,7 @@ public class PressKeyToDig : MonoBehaviour
         {
             instruction?.SetActive(false);
             isPlayerWithinDiggingRange = false;
+            image?.SetActive(true);
             //onPlayerWithinDiggingRange.Raise(this, isPlayerWithinDiggingRange);
         }
     }
