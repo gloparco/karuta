@@ -2664,6 +2664,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4258415961774290382, guid: d709e9ef7e558469fae361737f23c554, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4bf6dcd96dfb57445b6e97bd40ae15f3, type: 3}
     - target: {fileID: 5920910321610072546, guid: d709e9ef7e558469fae361737f23c554, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2704,6 +2708,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6606627782313693776, guid: d709e9ef7e558469fae361737f23c554, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3971c0ab952e1e24da1f1668cc4a4a52, type: 3}
     - target: {fileID: 8489174968779625720, guid: d709e9ef7e558469fae361737f23c554, type: 3}
       propertyPath: m_Name
       value: Ambiant Music
@@ -9566,6 +9574,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f7f3dde7ae722a4aafffe20691ad702, type: 3}
+--- !u!1001 &1985530525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3935045913483589630, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bcd9e05560aec154babdddd54f471a9b, type: 3}
+    - target: {fileID: 4062468508062844571, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_Name
+      value: Footstep
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776951534064393101, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776951534064393101, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776951534064393101, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776951534064393101, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776951534064393101, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776951534064393101, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776951534064393101, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776951534064393101, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776951534064393101, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776951534064393101, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c0e7d2ba2ce4224b352fb42c4051d9, type: 3}
 --- !u!114 &2006620068 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8616685848737228376, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
@@ -11414,3 +11483,4 @@ SceneRoots:
   - {fileID: 2061509457}
   - {fileID: 1702497314}
   - {fileID: 1735851107}
+  - {fileID: 1985530525}
